@@ -11,9 +11,9 @@
     "copy:types": "rsync -avr .dfx/$(echo ${DFX_NETWORK:-'**'})/canisters/** --exclude='assets/' --exclude='idl/' --exclude='*.wasm' --exclude='*.most' --delete src/declarations"
   },
   "devDependencies": {
-    "@dfinity/agent": "0.12.1",
-    "@dfinity/candid": "0.12.1",
-    "@dfinity/principal": "0.12.1",
+    "@dfinity/agent": "0.12.2",
+    "@dfinity/candid": "0.12.2",
+    "@dfinity/principal": "0.12.2",
     "assert": "2.0.0",
     "buffer": "6.0.3",
     "copy-webpack-plugin": "^11.0.0",
@@ -23,7 +23,7 @@
     "stream-browserify": "3.0.0",
     "terser-webpack-plugin": "5.3.3",
     "util": "0.12.4",
-    "webpack": "5.73.0",
+    "webpack": "5.74.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "^4.9.3"
   },
